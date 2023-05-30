@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Ücret tutarını giriniz : ");
         kdvsizFiyat = input.nextInt();
         kdvOran = (kdvsizFiyat<=1000 & kdvsizFiyat>0) ? 0.18 : 0.08;
-        
+
         kdvTutari = kdvsizFiyat * kdvOran;
         System.out.println("Kdv Tutari : " + kdvTutari);
         kdvliFiyat = kdvTutari + kdvsizFiyat;
